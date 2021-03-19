@@ -188,12 +188,39 @@ once i am able to add more projects i can resize this and allow more projects to
   display: grid;
 }
 
+#javascript {
+  background-color: rgb(241, 241, 149);
+}
+
+hr{
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  border-top: medium double #333;
+  color: #333;
+  text-align: center;
+}
+hr:after {
+  content: "☺";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1em;
+  background: #eeeef7;
+}
+
+#nodejs{
+  background-color: rgb(155, 228, 155);
+}
+
 .grid-item {
   padding: 20px;
   font-size: 30px;
   text-align: center;
   padding: 10px 10px 0px 0px;
 }
+
+
 
 /*Footer*/
 /* this is the footer section that all of my footer elements fit in*/
